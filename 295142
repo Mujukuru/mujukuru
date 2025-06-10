@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mujukuru Metalworks</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+    header, section, footer { padding: 20px; max-width: 1000px; margin: auto; }
+    h1, h2, h3 { color: #333; }
+    ul { list-style: none; padding-left: 0; }
+    li { margin-bottom: 5px; }
+    .gallery { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 15px; margin-top: 10px; }
+    .gallery img { width: 100%; height: auto; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+    .contact { background: #f3f3f3; padding: 20px; }
+    .logo { max-width: 150px; margin-bottom: 10px; }
+  </style>
+</head>
+<body>
+
+<header>
+  <img src="images/logo.png" alt="Mujukuru Logo" class="logo">
+  <h1>MUJUKURU METALWORKS</h1>
+  <p><strong>Crafted with Precision. Built to Last.</strong></p>
+  <p>📍 Francistown, Botswana | 📞 +267 74 343 088 | 📱 WhatsApp: +267 75 582 458 | ✉️ elijahomegamujokeri@gmail.com</p>
+</header>
+
+<section>
+  <h2>About Us</h2>
+  <p>At Mujukuru Metalworks, we specialize in high-quality welding and metal fabrication solutions. With years of hands-on experience and a background in industrial design, we deliver metalwork that blends strength, functionality, and custom craftsmanship.</p>
+  <p>Whether you're looking for trailers, gates, or custom steelwork — we get the job done right the first time.</p>
+</section>
+
+<section>
+  <h2>Our Products & Services</h2>
+  <h3>Trailers</h3>
+  <ul>
+    <li>Livestock / Cattle Trailers</li>
+    <li>Water Bowser Trailers</li>
+    <li>Lowbed Trailers</li>
+    <li>Luggage Trailers</li>
+    <li>Mobile Kitchen Trailers</li>
+  </ul>
+  <div class="gallery">
+    <img src="images/trailer1.jpg" alt="Trailer 1"><img src="images/trailer2.jpg" alt="Trailer 2"><img src="images/trailer3.jpg" alt="Trailer 3">
+  </div>
+
+  <h3>Vehicle Accessories</h3>
+  <ul>
+    <li>Bull Bars</li>
+    <li>Roll Bars</li>
+    <li>Towing Bars</li>
+  </ul>
+  <div class="gallery">
+    <img src="images/bullbar1.jpg" alt="Bull Bar"><img src="images/towbar1.jpg" alt="Tow Bar"><img src="images/rollbar1.jpg" alt="Roll Bar">
+  </div>
+
+  <h3>Security Installations</h3>
+  <ul>
+    <li>Burglar Doors</li>
+    <li>Burglar Windows</li>
+    <li>Palisades</li>
+  </ul>
+
+  <h3>Other Metal Structures</h3>
+  <ul>
+    <li>Car Ports / Car Shades</li>
+    <li>Sliding Gates</li>
+  </ul>
+</section>
+
+<section>
+  <h2>Why Choose Us</h2>
+  <ul>
+    <li>✅ Strong, durable construction</li>
+    <li>✅ Custom designs to your needs</li>
+    <li>✅ Timely delivery</li>
+    <li>✅ Competitive pricing</li>
+    <li>✅ Friendly and reliable service</li>
+  </ul>
+</section>
+
+<section class="contact">
+  <h2>Contact Us</h2>
+  <p>📍 Francistown, Botswana</p>
+  <p>📞 Phone: +267 74 343 088</p>
+  <p>📱 WhatsApp: +267 75 582 458</p>
+  <p>✉️ Email: elijahomegamujokeri@gmail.com</p>
+</section>
+
+</body>
+</html>
